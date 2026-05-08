@@ -1,0 +1,57 @@
+SUBSYSTEM,NOMBRE_TRABAJO,CANTIDAD_ESPERADA,DESCRIPCION
+QBATCH,BATCH_CTRL_01,12,Control principal de procesos batch nocturnos
+QBATCH,BATCH_CTRL_02,5,Ejecucion paralela de cargas batch
+QINTER,INTERFACE_API_01,18,Procesamiento de integraciones API externas
+QINTER,INTERFACE_API_02,7,Cola secundaria de interfaces REST
+QSPL,SPOOL_MGR_01,3,Administrador de colas de spool
+QSPL,SPOOL_MGR_02,8,Distribucion automatica de reportes spool
+QSYSWRK,SYS_MONITOR_01,25,Monitoreo principal del sistema AS400
+QSYSWRK,SYS_MONITOR_02,15,Procesos auxiliares de rendimiento
+QSERVER,SERVER_POOL_01,30,Pool principal de servidores TCP/IP
+QSERVER,SERVER_POOL_02,12,Servicios secundarios de conexiones
+QCMN,COMMUNICATION_JOB_01,9,Administrador de comunicaciones internas
+QCMN,COMMUNICATION_JOB_02,4,Control de sesiones remotas
+QCTL,CONTROL_MASTER_01,2,Controlador maestro de subsistema
+QCTL,CONTROL_MASTER_02,1,Proceso principal de arranque
+QBASE,BASE_ENGINE_01,22,Motor base de ejecucion AS400
+QBASE,BASE_ENGINE_02,13,Servicios internos del sistema base
+QHTTPSVR,HTTP_SERVER_01,11,Servidor HTTP principal
+QHTTPSVR,HTTP_SERVER_02,6,Procesos secundarios HTTP
+QUSRWRK,USR_WORKFLOW_01,17,Procesamiento de workflow usuarios
+QUSRWRK,USR_WORKFLOW_02,5,Servicios auxiliares workflow
+QSNADS,SNADS_ROUTER_01,7,Ruteo SNADS corporativo
+QSNADS,SNADS_ROUTER_02,3,Servicios secundarios SNADS
+QSYS,QSYS_CORE_01,40,Nucleo principal del sistema operativo
+QSYS,QSYS_CORE_02,18,Procesos internos del kernel
+QPGMR,PROGRAM_HANDLER_01,14,Administrador de programas batch
+QPGMR,PROGRAM_HANDLER_02,9,Control de ejecuciones programadas
+QSYSARB,SYSTEM_ARBITER_01,5,Arbitraje de recursos sistema
+QSYSARB,SYSTEM_ARBITER_02,2,Control secundario de arbitraje
+QDMA,QDMA_STREAM_01,16,Transferencias DMA principales
+QDMA,QDMA_STREAM_02,11,Streams secundarios DMA
+QTVDEVICE,TV_DEVICE_01,4,Control de dispositivos virtuales
+QTVDEVICE,TV_DEVICE_02,3,Servicios auxiliares dispositivos
+QFILESRV,FILE_SERVER_01,28,Servidor principal de archivos
+QFILESRV,FILE_SERVER_02,9,Servicios secundarios de archivos
+QREXEC,REMOTE_EXEC_01,6,Ejecucion remota de comandos
+QREXEC,REMOTE_EXEC_02,4,Procesos auxiliares remotos
+QUSRBRM,BRM_MANAGER_01,19,Administrador de respaldos BRMS
+QUSRBRM,BRM_MANAGER_02,12,Procesamiento de politicas BRMS
+QZDASOINIT,DB_ACCESS_01,70,Inicializacion conexiones base datos
+QZDASOINIT,DB_ACCESS_02,48,Pool secundario acceso DB2
+QZHQSSRV,HOST_SERVER_01,23,Servidor principal host services
+QZHQSSRV,HOST_SERVER_02,9,Servicios auxiliares host
+QZRCSRVS,RESOURCE_SRV_01,13,Administrador recursos compartidos
+QZRCSRVS,RESOURCE_SRV_02,7,Servicios secundarios recursos
+QWCTL,WEB_CONTROL_01,10,Control central aplicaciones web
+QWCTL,WEB_CONTROL_02,4,Procesos secundarios web
+QWTRMGR,WRKSTATION_MGR_01,21,Administrador estaciones trabajo
+QWTRMGR,WRKSTATION_MGR_02,14,Servicios auxiliares estaciones
+QWTMCEOJ,JOB_TRACKER_01,8,Seguimiento central de jobs
+QWTMCEOJ,JOB_TRACKER_02,5,Tracking secundario de jobs
+QWSSERVER,WEB_SESSION_01,32,Administrador sesiones web
+QWSSERVER,WEB_SESSION_02,17,Servicios auxiliares sesiones
+QRMTSRV,REMOTE_SERVICE_01,15,Servicios remotos corporativos
+QRMTSRV,REMOTE_SERVICE_02,6,Procesos secundarios remotos
+QAUTOMON,AUTO_MONITOR_01,11,Monitoreo automatico infraestructura
+QAUTOMON,AUTO_MONITOR_02,8,Alertamiento automatico NOC
